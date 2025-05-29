@@ -1,6 +1,6 @@
 import React from "react";
 
-function Filter({ onSearchChange, onCategoryChange, search, selectedCategory}) {
+function Filter({ onSearchChange, onCategoryChange, search, selectedCategory }) {
   return (
     <div className="Filter">
       <input
@@ -21,3 +21,4 @@ function Filter({ onSearchChange, onCategoryChange, search, selectedCategory}) {
 }
 
 export default Filter;
+
